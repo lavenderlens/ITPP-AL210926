@@ -1,0 +1,52 @@
+Q!
+IF          Decisions/Arithmetic/Comparisons
+COMPUTE     Arithmetic/Comparisons/Decisions
+INPUT       I/O
+SET         Storage
+CALL        Decisions/REUSE
+WHILE       Repetition
+
+Q2
+RETURN
+ELSE IF 
+do 
+loop (WHILE FOR)
+
+Q3
+diagrams 
+
+Q4
+99 in binary 1100011
+
+2**8    2**7    2**6    2**5    2**4    2**3    2**2    2**1    2**0
+
+256      128    64      32      16      8       4       2       1
+                1       1       0       0       0       0       1
+
+                                                        16**1   16**0
+                                                        16      1
+                                                        6       3
+                                                        to represent 160 in hex
+                                                        A        0
+
+10**3    10**2    10**1    10**0
+
+1000     100      10       1
+        1           6       0
+
+Q5
+c 
+
+Q6
+
+A systme of...
+
+Q7
+YES! small units of code 
+
+Q8
+to translate source code written in high-level langauage into machine code 
+AND to check for commonly occurring errors before it runs
+
+Q9
+auromatically compiles and interprets code - Read Evaluate Print Loop 

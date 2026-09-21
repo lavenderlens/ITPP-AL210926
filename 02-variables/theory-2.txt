@@ -1,0 +1,47 @@
+Q1
+team names
+scores
+input by human
+not likely to cahnge AFTER the match
+
+Q2
+bp
+weight
+height
+diseases/allergies
+age 
+heartRate 
+input by a human / medical device
+YES - over time acutely or chronically
+
+Q3
+variable is a placeholder for values 
+which may change over time 
+in Python, type may also change
+
+Q4
+total_cost 
+player_position 
+patient_heartrate
+
+Q5
+= is for assignment
+x = 1
+1 is an integer literal value
+x is a variable name
+the single = creates a ref to 1 from x
+
+Q6
+float 
+string 
+bool 
+string 
+"Dumore, falcarragh, Co.Donegal"
+there exists in Python a datatype called dict or dictionary
+this stores key: value pairs
+we might want to express and address as follows:
+{"street": "Dunmore",
+"town" : "Falcarragh",
+"county":"Donegal"
+}
+list - ["photography", "Netflix"]

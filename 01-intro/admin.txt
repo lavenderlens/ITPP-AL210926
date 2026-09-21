@@ -1,0 +1,27 @@
+UK          
+09:30       START
+11:00       break am 20mins
+12:30       LUNCH 1 hour
+15:00       break pm 20mins
+16:30       formal finish (no new lecturing)
+17:00       END
+
+alanl@stayahead.com
+Cc
+alan@alanlavender.com
+
+in case of power outage
+Whatsapp + Irish mobile
++353 85 105 2618    
+UK mobile
++44 7442 173078
+
+01-intro
+02-variables
+03-expressions
+04-conditions
+05-collections
+06-iterative statements
+07-functions 
+08-objects 
+

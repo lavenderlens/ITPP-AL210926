@@ -1,0 +1,39 @@
+Q1 
+TEAMS
+SCORES
+manually input by human user
+after each match 
+likely to change after the match 
+
+Q2 
+AGE inT 
+HEIGHT, WEIGHT float 
+CONDITIONS pre-existing string
+DRINKING.SMOKING bool
+YES - changes over time 
+human input AND medical devices
+
+Q3 
+storage location 
+name 
+value 
+datatype (from value)
+
+Q4 
+cart_total 
+starting_position 
+latest_heart_rate 
+
+Q5 
+assignment operator used to assign a value to a variable name 
+
+Q6 
+float 
+string 
+bool 
+minimally, str 
+but a list would store different PARTS of the address 
+even better still, a dictionary stores key:value pairs 
+
+minimally, string, 
+better: list

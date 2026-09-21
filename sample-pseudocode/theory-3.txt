@@ -1,0 +1,57 @@
+Q1
+INPUT num1
+INPUT num2
+COMPUTE num1 multiplied by num2 = num3
+OUTPUT num3
+
+
+Q2
+INPUT num1
+INPUT num2
+COMPUTE num1 as whole number divided by num2 as quotient
+COMPUTE remainder of dividing num1 by num2 as remainder
+OUTPUT quotient with label to screen
+OUTPUT remainder with label to screen
+
+Q3
+INPUT age from user
+INPUT price of lessons
+INPUT amount the user has for lessons as amount_from_user
+COMPUTE price divided by amount_from_user = can_afford
+COMPUTE can_afford_lessons = can_afford greater than 1
+COMPUTE can_have_lessons = can_afford_lessons and age > 17
+OUTPUTE can_have_lessons
+
+Q4
+INPUT cereal from user
+COMPUTE = cereal is CornFlakes or cereal is Shreddies or cereal is Cheerios = can_have_cereal
+OUTPUT can_have_cereal, cereal
+
+Q5
+INPUT Is it cold as cold
+INPUT is it raining as raining
+COMPUTE raining equal to yes or cold equal to yes as you_need_coat
+OUTPUT you_need_coat
+
+Q6
+
+DEFINE FUNCTION check_dresscode
+    INPUT has_shirt
+    INPUT has_shoes
+    COMPUTE club_admittance = has_shirt == true and has_shoes == true
+    OUTPUT club_admittance
+
+Q7
+INPUT Are they intoxicated
+COMPUTE yes equal to deny_admittance
+COMPUTE no equal to RUN check_dresscode
+
+Q8
+JUST ONE
+
+Q9
+8*2
+6+1
+LHS > RHS
+False
+

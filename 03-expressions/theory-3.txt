@@ -1,0 +1,48 @@
+Q1
+
+input number1
+input number2 
+compute number1 + number2 = number3
+output number3
+
+Q2
+input number1
+input number2 
+compute number1 / number2 = quotient
+compute number1 % number2 = remainder
+output quotient, remainder
+
+Q3
+input age from user
+input hasProvisonalLicence from user
+COMPUTE CanHaveDrivingLessons = age >= 17 and hasProvisonalLicence is true 
+output = CanHaveDrivingLessons
+
+Q4
+INPUT breakFastCereal from user
+COMPUTE CanHaveBreakfast = breakFastCereal is Corn Flakes or Cheerios or Shreddies
+OUTPUT CanHaveBreakfast
+
+Q5
+WearACoat = true if raining or temperature is cold
+OUTPUT WearACoat
+
+Q6
+INPUT isWearingShirt
+INPUT isWearingShoes
+AdmitToClub = isWearingShirt and isWearingShoes
+OUTPUT AdmitToClub
+
+Q7
+INPUT isWearingShirt
+INPUT isWearingShoes
+AdmitToClub = isWearingShirt and isWearingShoes and isNotIntoxicated
+OUTPUT AdmitToClub
+
+Q8
+just one
+
+Q9
+8*2
+6+1
+LHS > RHS
