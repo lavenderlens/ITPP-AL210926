@@ -1,0 +1,90 @@
+Q1
+INPUT temperature
+ 
+IF temperature is <= 10 THEN
+    "You'll need a coat"
+ELSE
+    "You don't need a coat"
+ENDIF
+
+Q2
+INPUT Year
+#IF Year % 4 == 0
+#OR
+CALCULATE remainder of dividing year by 4
+IF remainder is 0
+    OUTPUT It’s a leap year
+ELSE
+    OUTPUT It’s not a leap year
+ENDIF
+
+Q3
+INPUT score
+IF score is >= 51 then
+    "You have passed the exam"
+ELSE 
+    "You have not passed the exam"
+ENDIF
+
+Q4
+number = 7
+guess = INPUT “I'm thinking of a number between 1 and 10. Can you guess what it is?”
+IF guess is number
+	OUPUT "You guessed right"
+ELSE
+	OUTPUT "Wrong"
+ENDIF
+
+Q5
+INPUT age
+IF age is <18 THEN
+    "You are a minor"
+ELSE IF age is <65 THEN
+    "You are of working age"
+ELSE 
+    "You are eligible for retirement"
+ENDIF
+
+OMIT Q6
+    what do we need for this?
+    home team name
+    away team name
+    home team tries
+    home team conversions
+    home team penalties
+    away team tries
+    away team conversions
+    away team penalties
+    values of tries, conversions, penalties
+
+INPUT homeTeam from keyboard
+INPUT homeTeamTries from keyboard
+INPUT homeTeamConversions from keyboard
+INPUT homeTeamPenalties from keyboard
+COMPUTE homeTeamTries multipled by 5 plus homeTeamConversions multiplied by 2 plus homeTeamPenalties multiplied by 3 as homeTeamPoints
+INPUT awayTeam from keyboard
+INPUT awayTeamTries from keyboard
+INPUT awayTeamConversions from keyboard
+INPUT awayTeamPenalties from keyboard
+COMPUTE awayTeamTries multipled by 5 plus awayTeamConversions multiplied by 2 plus awayTeamPenalties multiplied by 3 as awayTeamPoints
+IF homeTeamPoints greater than awayTeamPoints THEN
+    OUTPUT homeTeam plus " won" to screen
+ELSE IF awayTeamPoints greater than homeTeamPoints THEN
+    OUTPUT awayTeam plus " won" to screen
+ELSE
+    OUTPUT "Tie" to screen
+ENDIF
+
+
+Q7 Daniel
+MIN 1 (or 0 with no else)
+MAX 1 (but no limit to number of IF-ELIF blocks in expression)
+
+Q8
+refers to statement above: block of code belongs to that statement
+for readability (Python mandatory)
+
+ 
+
+ 
+ 
