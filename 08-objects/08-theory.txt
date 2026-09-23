@@ -1,0 +1,27 @@
+Q1
+
+combine data and functions into one re-useable custom datatype
+
+Q2
+
+definition of a datatype that can be used for creating objects
+
+Q3
+
+input
+assign value
+length of characters
+upper_case (upper() in Python)
+lower_case
+split (on a separator, comma, space, =)
+replace(original word, target word)
+copy
+
+Q4
+title: str
+author: author
+availability (checked out / returned): bool
+publisher: an object itself, with attributes name, address, 
+number of pages: into
+retail_price: float
+
