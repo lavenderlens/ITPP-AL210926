@@ -1,0 +1,85 @@
+1.
+to code named reference to some code which may be repeated using that name
+none, one, or many times in the future
+
+2.
+parameter: a variable passed to a function at definition time
+arg: some data passed to a function at runtime
+
+3. 
+0 MIN (a function doesn't have to have a return in order to do something)
+1 MAX (a return statement may only return one thing)
+
+NB: you may see functions with multiple return statements
+each statement terminates a branch through that function
+
+4.
+BEGIN
+FUNCTION print_sum(numbers):
+    SUM = 0
+    FOR num in numbers:
+        SUM += num
+    OUTPUT SUM
+    ENDSUM
+END
+
+5.
+FUNCTION biggest (list)
+    SET biggest to list[0]
+    FOR number in list
+        if number > biggest
+        SET biggest to number
+    ENDFOR
+    OUTPUT biggest
+ENDFUNCTION
+
+OR, in Python using a builtin function
+return sum(list)
+
+6.
+BEGIN
+FUNCTION PrintLen(numbers):
+    FOR EACH el in numbers:
+        print len(numbers)
+    ENDFOR
+END 
+
+BEGIN
+FUNCTION PrintLen(numbers)
+    Set count to 0
+    FOR EACH el in numbers:
+        count = count + 1
+    ENDFOR
+    RETURN count
+END
+
+OR, in Python using builtin len() function
+return len(numbers)
+
+7.
+FUNCTION Percentage (percent, number)
+    answer is (percent / number) * 100
+    OUTPUT answer 
+
+9.
+
+BEGIN
+PERCENTAGE = 20
+VALUE = 200
+
+FUNCTION CalculatePercentage((percentage / 100) * value):
+    OUTPUT Result
+END
+
+7.
+FUNCTION CalculatePercentage(value, percentage):
+    OUTPUT value * percentage/100
+END
+9.
+PERCENTAGE = 20
+VALUE = 200
+CALL CalculatePercentage(VALUE, PERCENTAGE)#passing in a COPY of globale values
+
+ 
+ 
+
